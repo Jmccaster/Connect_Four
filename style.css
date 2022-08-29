@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#board {
+  height: 540px;
+  width: 640px;
+  background-color: blue;
+  border: 10px solid navy;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+  border: 5px solid navy;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.red-piece {
+  background-image: url("https://i1.sndcdn.com/artworks-000193803962-tla7ov-t500x500.jpg");
+  background-size: cover;
+}
+
+.yellow-piece {
+  background-image: url("https://i.etsystatic.com/20023820/r/il/2fa9e1/3911935240/il_fullxfull.3911935240_2c9o.jpg");
+  background-size: cover;
+}
+
+.score {
+  text-decoration: underline;
+}
